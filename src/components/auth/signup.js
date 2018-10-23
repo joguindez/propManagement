@@ -4,10 +4,10 @@ class Signup extends Component {
     render() {
         return (
             <div className='sign-up'>
-                ...signup 
+                Sign up 
             </div>
         )
     }
 }
 
-export default Signup
+export default Signup;
