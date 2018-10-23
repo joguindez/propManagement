@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Header, HeaderBar } from './header';
 
+import { Header, HeaderBar } from './header';
 
 class Layout extends Component {
     render() {
@@ -10,7 +10,6 @@ class Layout extends Component {
                 <HeaderBar/>
                 {this.props.children}
             </div>
-
         )
     }
 }
